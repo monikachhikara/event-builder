@@ -5,7 +5,7 @@ import OneOnOne from './components/OneOnOne';
 import InviteeQuestionsForm from './components/InviteeQuestionsForm';
 import {useState} from 'react';
 import MoreInviteeQuestions from './components/MoreInviteeQuestions';
-
+import ShowGeneratedURL from './components/ShowGeneratedURL';
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -32,6 +32,7 @@ function App() {
           </>
         }
         />
+        <Route path='/uniqueURL' element={<ShowGeneratedURL />} />
       </Routes>
     </BrowserRouter>
   );

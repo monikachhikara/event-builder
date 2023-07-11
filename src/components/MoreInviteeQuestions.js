@@ -21,7 +21,7 @@ function MoreInviteeQuestions({onClose}){
                         </div>
                         <div className="m-3">
                             <button className="btn btn-outline-primary" onClick={handleOnClose}>Close</button>
-                            <button className="btn btn-outline-primary buttonNext">Add</button>
+                            <button className="btn btn-outline-primary buttonRight">Add</button>
                         </div>
                     </form>
                 </div>

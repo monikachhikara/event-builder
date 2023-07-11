@@ -4,6 +4,7 @@ import { useNavigate } from "react-router-dom";
 function OneOnOne(){
     const[seletedDate, setSelectedDate] = useState('');
     const[selectedTimeSlot, setSelectedTimeSlot] = useState('');
+
     const navigate =  useNavigate();
 
     const timeSlots = [
@@ -62,7 +63,7 @@ function OneOnOne(){
                     </form>
                 </div>
                 <div className="card-footer">
-                    <button className="btn btn-outline-primary buttonNext" onClick={handleNextClick}>Next</button>
+                    <button className="btn btn-outline-primary buttonRight" onClick={handleNextClick}>Next</button>
                 </div>
         </div>
         </div>
